@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -97,9 +98,15 @@ const FormPsi: React.FC = () => {
                 )}
             </div>
 
-            <Button type="submit" className="w-full">
-                Enviar
-            </Button>
+            <div className="flex justify-center">
+                <Button
+                    type="submit"
+                    className="w-6/12 font-bold text-white bg-blue-500"
+                >
+                    Enviar
+                </Button>
+            </div>
+
         </form>
     );
 };
