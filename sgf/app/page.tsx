@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-screen">
 
       {/* Conteúdo Principal */}
       <div className="flex-1 flex flex-col justify-center items-center">
@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Botão de agendamento */}
         <div className="">
-          <Button className="bg-blue-500 text-white px-4 py-2 rounded">
+          <Button className="bg-blue-500 text-white p-5 rounded-md shadow-lg">
             <Link href={"/page/form"}>
               Agende Aqui!
             </Link>
