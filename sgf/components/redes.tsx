@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, Phone, Settings, Twitter } from "lucide-react";
+import { Facebook, Instagram, Mail, Phone, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const Redes = () => {
